@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Lato');
+
+body {
+  display: flex;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.top-content {
+  background-image: url("./assets/toa-heftiba-195458.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.menu-item {
+  display: flex;
+  height: 50px;
+  width: 100px;
+  margin-right: 0.3em;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menu-link:hover {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 65px;
+  background-color: none;
+  font-family: 'Lato';
+  font-weight: bolder;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.article {
+  display: flex;
+  padding: 1em 3em;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255,255,255, 0.88);
+  height: 100%;
+  flex-direction: row;
+  border-top: 3px solid #ffdbab;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article-title {
+  padding: 0 1.6em;
+  color: #de9a40;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  font-size: 20px;
+}
+
+.article-text {
+  padding: 0 2.3em;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  text-align: justify;
+}
+
+.article-image {
+  max-width: 52%;
+  height: 65%;
+}
