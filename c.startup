@@ -3,3 +3,5 @@ ifconfig eth0 10.0.0.3/24
 dhclient
 
 ip addr del 10.0.0.3/24 dev eth0
+
+echo "nameserver 8.8.8.8" > /etc/resolv.conf
